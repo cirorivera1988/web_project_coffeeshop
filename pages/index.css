@@ -103,7 +103,7 @@
   justify-content: space-between;
   margin-top: auto;
 }
-.paragraph {
+.header__paragraph {
   margin: 0;
 }
 .header__footer-schedule {
@@ -125,7 +125,7 @@
   flex-direction: column;
   height: 100vh;
   min-height: 720px;
-  max-height: 800px;
+
   position: relative;
 }
 .recipies__title {
@@ -148,7 +148,7 @@
   max-width: 438px;
   margin: 24px 0 0 80px;
 }
-.videos {
+.recipies__videos {
   display: flex;
   align-self: center;
   margin-top: 80px;
