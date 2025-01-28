@@ -194,15 +194,13 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin: 100px auto 80px auto;
+  margin: 0 auto 80px auto;
+  padding-top: 100px;
 }
 
 .reservation__form {
   max-width: 385px;
   width: 100%;
-}
-
-.reservation__form-form {
   display: flex;
   flex-direction: column;
   gap: 32px;
