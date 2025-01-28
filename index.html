@@ -10,7 +10,6 @@
     <meta name="author" content="Ciro Rivera" />
     <meta name="keywords" content="proyecto, cafeteria, ciro, avanzado" />
     <title>Cafetería</title>
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="pages/index.css" />
     <link rel="icon" href="/favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -34,7 +33,7 @@
             <li>
               <a href="#reservation" class="nav__link">Reservar una mesa</a>
             </li>
-            <li><a href="#" class="nav__link">Contactos</a></li>
+            <li><a href="#footer" class="nav__link">Contactos</a></li>
           </ul>
         </nav>
         <h1 class="header__title">
@@ -181,7 +180,44 @@
           </form>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer id="footer" class="footer">
+        <div class="footer__circle"></div>
+        <div class="footer__content">
+          <img
+            src="../images/logo_coffeeshop_light.svg"
+            alt="Logo Cafetería footer"
+            class="footer__logo"
+          />
+
+          <div class="footer__column footer__column_content_social">
+            <h2 class="footer__social-title">Redes sociales</h2>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="../images/facebook_white.svg"
+                    alt="Logotipo Facebook Blanco"
+                    class="footer__social-icon"
+                  />
+                  Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="../images/instagram_white.svg"
+                    alt="Logotipo Instagram Blanco"
+                    class="footer__social-icon"
+                  />
+                  Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <p class="footer__copyright">© 2024 Ciro Ernesto Rivera Mariño</p>
+      </footer>
     </div>
   </body>
 </html>
