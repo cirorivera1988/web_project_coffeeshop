@@ -113,7 +113,76 @@
             </div>
           </div>
         </section>
-        <section id="reservation" class="reservation"></section>
+        <section id="reservation" class="reservation">
+          <div>
+            <h2 class="reservation__title">Reservar una mesa</h2>
+          </div>
+          <div class="reservation__form">
+            <form class="reservation__form-form">
+              <fieldset class="reservation__form-fieldset">
+                <label class="reservation__form-form-label"
+                  >Nombre *
+                  <input
+                    class="reservation__form-form-input"
+                    type="text"
+                    name="name"
+                    placeholder="Nombre"
+                    required
+                  />
+                </label>
+                <br />
+                <label class="reservation__form-form-label">
+                  Número de comensales *
+                  <input
+                    class="reservation__form-form-input"
+                    type="number"
+                    name="Number-of-diners"
+                    min="1"
+                    max="8"
+                    placeholder="1-8"
+                    required
+                  />
+                </label>
+                <br />
+                <label class="reservation__form-form-label">
+                  Fecha y hora *
+                  <input
+                    class="reservation__form-form-input"
+                    type="datetime-local"
+                    name="date-and-hour"
+                    placeholder="---"
+                    required
+                  />
+                </label>
+                <br />
+                <label class="reservation__form-form-label">
+                  Tu correo electrónico *
+                  <input
+                    class="reservation__form-form-input"
+                    type="email"
+                    name="email"
+                    placeholder="email@email.com"
+                    required
+                  />
+                </label>
+              </fieldset>
+              <fieldset class="reservation__form-fieldset">
+                <button class="reservation__form-form-buttom" type="submit">
+                  Reservar una mesa
+                </button>
+              </fieldset>
+              <label class="reservation__form-form-label-checkbox">
+                <input
+                  type="checkbox"
+                  name="acept-term"
+                  value="bold-heading"
+                  class="reservation__form-checkbox"
+                  checked
+                />Acepto los términos de uso
+              </label>
+            </form>
+          </div>
+        </section>
       </main>
       <footer class="footer"></footer>
     </div>
