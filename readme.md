@@ -1,6 +1,7 @@
-Nombre del proyecto: coffee shop
+Diseño de cafetería
 
-Descripción del proyecto: Este proyecto me permitió combinar diversas tecnologías de desarrollo web, incluyendo display flex, posicionamiento, listas, elementos embebidos, formularios y el uso de propiedades como overflow, para crear una pagina interactiva y funcional con un diseño adaptable y estructurado ais mismo utilizar la metodología BEM para la organización de archivos
+El desarrollo del sitio web se llevó a cabo con la metodología BEM, escribiendo el el código con clases específicas para cada bloque y elemento. utilizando nuevas herramientas como fieldset, label, input, button y checkbox. tambien en CSS se exploraron distintos formas de posicionamiento para que se mejore la presentación visual.
 
-Planes de mejora del proyecto. se puede mejorar la parte de los formularios eliminando los bordes innecesarios.
+el proyecto podría mejorase, haciendo que el formulario para la reserva fuer aquizas mas intuitivo, ademas tambien se podria colocar un mapa interactivo para mostrar la ubicacion.
+
 autor: Ciro Rivera
